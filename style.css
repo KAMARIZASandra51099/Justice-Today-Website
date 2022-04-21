@@ -1,0 +1,129 @@
+body
+{
+margin: 0; 
+padding: 0;
+font-family: montserrat;
+background: rgba(0,0,0,0.7)url("ifoto.jpg");
+background-size: cover;
+background-position: center;
+height: auto;
+background-repeat: no-repeat;
+background-blend-mode: darken;
+z-index: 2;
+
+}
+.menu-area
+{
+    width: 1170px;
+    margin: auto;
+    
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li
+{
+    display: inline-block;
+}
+.nav-area .red
+{
+    background-color: #f9004d;
+    color: white
+}
+.nav-area li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: montserrat;
+    font-size: 16px;
+}
+.nav-area li a:hover
+{
+    background-color: #fff;
+    color: black;
+}
+.content
+{
+    
+    width:600px;
+    height: 300px;
+    margin: 29% 29%;
+    text-align: center;
+    display: inline;
+}
+.content h1
+{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 400px;
+
+
+}
+.content p
+{
+    color:#fff;
+    padding: 15px 0;
+    line-height: 1.9;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.content a
+{
+    background:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s ;
+    margin-left: 45%;
+  
+}
+.content a:hover
+{
+    background: transparent;
+    border: 2px solid #f9004d;
+}
+
+
+@media (max-width:800px)
+{
+    .content{
+        width: 100%;
+        margin: 20% 0;
+    }
+    .content h1 
+    {
+        font-size: 20px;
+    }
+
+    .content p
+    {
+        font-size: 12px;
+    }
+    .menu-area
+    {
+        width: 100%;
+    }
+    .nav-area
+    {
+        float: none;
+        width: 100%;
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+    .nav-area li a
+    {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
